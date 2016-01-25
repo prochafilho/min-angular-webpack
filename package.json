@@ -2,7 +2,7 @@
   "name": "min-angular-webpack",
   "version": "0.1.2",
   "main": "server.js",
-  "description": "Minimal Angular - Webpack Setup",
+  "description": "Minimal AngularJS - Webpack Setup",
   "license": "ISC",
   "repository": {
     "type": "git",
