@@ -1,0 +1,34 @@
+{
+  "name": "min-angular-webpack",
+  "version": "0.1.0",
+  "main": "server.js",
+  "description": "My project",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriz/min-angular-webpack.git"
+  },
+  "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
+  "config": {
+    "port": "8001"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "open http://localhost:8080 && webpack-dev-server --hot",
+    "build": "webpack",
+    "build:prod": "webpack -p",
+    "build:watch": "webpack -w",
+    "pub": "npm version patch && npm publish && git push"
+  },
+  "keywords": [
+    "min-angular-webpack"
+  ],
+  "bugs": {
+    "url": "https://github.com/dmitriz/min-angular-webpack/issues"
+  },
+  "homepage": "https://github.com/dmitriz/min-angular-webpack#readme",
+  "dependencies": {
+    "min-angular": "^0.2.2",
+    "min-webpack": "^0.1.2"
+  }
+}
