@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/dmitriz/min-angular-webpack#readme",
   "dependencies": {
-    "min-angular": "^0.2.2",
-    "min-webpack": "^0.1.2"
+    "min-angular": "^1.2.0",
+    "min-webpack": "^1.0.3"
   }
 }
