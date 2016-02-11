@@ -1,8 +1,8 @@
 // index.js --- loaded from webpack via `entry` hook
 
-require('angular');
+require('angular')
 
-angular.module('app', []);
+angular.module('app', [])
 
 // Bootstrap angular module `app`
 angular.bootstrap(document.body, ['app'])
