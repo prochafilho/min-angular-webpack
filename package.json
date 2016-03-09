@@ -30,6 +30,6 @@
   "homepage": "https://github.com/dmitriz/min-angular-webpack#readme",
   "dependencies": {
     "min-angular": "^1.2.0",
-    "min-webpack": "^1.0.3"
+    "min-webpack": "^1.0.5"
   }
 }
