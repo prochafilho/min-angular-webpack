@@ -1,4 +1,8 @@
 // index.js --- loaded from webpack via `entry` hook
 
-// loading the module `insert.js`
-require('./insert.js');
+var angular = require('angular');
+
+// Declare module `app`, angular dependency modules go here
+angular.module('app', [])
+
+angular.bootstrap(document.body, ['app'])
